@@ -6,3 +6,5 @@ This is an android app that is used as a tool for visualizing influxdb timeserie
 The graphs themselves are managed by two pages: a list of "graphlists" each of which contain a list of graphs. The user can easily navigate between different graphlists and group datasets together in different ways. 
 
 Tested primarily for Samgung Galaxy S3.
+
+<img src="https://cloud.githubusercontent.com/assets/7840727/3986690/31e80dbe-289d-11e4-9058-2feb994812e0.png" height="200" />
