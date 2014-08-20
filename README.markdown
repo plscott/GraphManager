@@ -7,8 +7,8 @@ The graphs themselves are managed by two pages: a list of "graphlists" each of w
 
 Tested primarily for Samgung Galaxy S3.
 
-<img src="https://cloud.githubusercontent.com/assets/7840727/3986690/31e80dbe-289d-11e4-9058-2feb994812e0.png" height="260" /> &nbsp;
-<img src="https://cloud.githubusercontent.com/assets/7840727/3986686/31723d46-289d-11e4-8dfe-e611092714d0.png" height="260" /> &nbsp;
-<img src="https://cloud.githubusercontent.com/assets/7840727/3986689/31e6a500-289d-11e4-9ea7-cf5de4685a4f.png" height="260" /> &nbsp;
-<img src="https://cloud.githubusercontent.com/assets/7840727/3986687/3190e214-289d-11e4-9c68-d15d0c19c91a.png" height="260" /> &nbsp;
-<img src="https://cloud.githubusercontent.com/assets/7840727/3986688/31aac36e-289d-11e4-89aa-e4ecd26d9959.png" height="260" />
+<img src="https://cloud.githubusercontent.com/assets/7840727/3986690/31e80dbe-289d-11e4-9058-2feb994812e0.png" height="200" /> &nbsp;
+<img src="https://cloud.githubusercontent.com/assets/7840727/3986686/31723d46-289d-11e4-8dfe-e611092714d0.png" height="200" /> &nbsp;
+<img src="https://cloud.githubusercontent.com/assets/7840727/3986689/31e6a500-289d-11e4-9ea7-cf5de4685a4f.png" height="200" /> &nbsp;
+<img src="https://cloud.githubusercontent.com/assets/7840727/3986687/3190e214-289d-11e4-9c68-d15d0c19c91a.png" height="200" /> &nbsp;
+<img src="https://cloud.githubusercontent.com/assets/7840727/3986688/31aac36e-289d-11e4-89aa-e4ecd26d9959.png" height="200" />
