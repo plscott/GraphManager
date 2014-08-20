@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="@color/light_blue">
+    
+    <TextView
+        android:id="@+id/prompt_text"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+      	android:textSize="26sp"
+      	android:text="@string/graphs"
+     	android:textColor="@color/black"
+		/>
+        
+        <TextView
+	        android:id="@+id/lists_back_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:text="@string/back_to_lists"
+			android:textSize="18sp"
+			android:layout_alignBaseline="@+id/prompt_text" 
+        	android:layout_alignParentLeft="true"
+        	android:layout_marginLeft="25dp"
+			android:textColor="@color/white"
+			/>
+
+        
+        <ImageView
+            android:id="@+id/lists_back_icon"
+            android:contentDescription="@string/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+        	android:layout_marginLeft="7dp"
+        	android:layout_alignBottom="@+id/prompt_text"
+        	android:layout_marginBottom="3dp"
+            android:src="@drawable/back"
+            />
+			
+        <Button
+			android:id="@+id/edit_button"
+			android:background="@null"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="15dp"
+			android:layout_alignBaseline="@+id/prompt_text"
+			android:text="@string/remove_list_button"
+			android:textSize="28sp"
+			android:textColor="@drawable/edit_text_color"/>
+        
+	    <Button
+			android:id="@+id/add_graph_button"
+			android:background="@null"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toLeftOf="@+id/edit_button"
+			android:layout_marginRight="28dp"
+			android:layout_alignBaseline="@+id/prompt_text"
+			android:text="@string/add_graph_button"
+			android:textSize="28sp"
+			android:textColor="@color/white" /> 
+
+</RelativeLayout>

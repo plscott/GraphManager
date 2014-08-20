@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="@color/light_blue">
+
+        <TextView
+            android:id="@+id/prompt_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="26sp"
+            android:text="@string/lists"
+            android:textColor="@color/black" />
+        
+		<Button
+			android:id="@+id/edit_button"
+			android:background="@null"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="15dp"
+			android:layout_alignBaseline="@+id/prompt_text"
+			android:text="@string/remove_list_button"
+			android:textSize="28sp"
+			android:textColor="@drawable/edit_text_color"/>
+			
+	    <Button
+			android:id="@+id/add_button"
+			android:background="@null"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toLeftOf="@+id/edit_button"
+			android:layout_marginRight="25dp"
+			android:layout_alignBaseline="@+id/prompt_text"
+			android:text="@string/add_list_button"
+			android:textSize="28sp"
+			android:textColor="@color/white" /> 
+
+</RelativeLayout>

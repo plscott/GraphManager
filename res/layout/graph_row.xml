@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/row_height"
+    android:background="@drawable/row_background">
+	
+    <ImageView
+        android:contentDescription="@string/graph_type"
+        android:id="@+id/graph_type"
+        android:layout_height="@dimen/row_height"
+        android:layout_width="@dimen/row_height"
+        android:padding="5dp"
+        android:background="@color/grey"/>
+    
+    <TextView 
+        android:id="@+id/cell_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/graph_type"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        />
+    
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/graph_type"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/cell_title"
+        android:textSize="16sp"
+        android:textColor="@color/black" />
+    
+	<ImageView 
+        android:contentDescription="@string/arrow"
+        android:id="@+id/select_arrow"
+        android:src="@drawable/forward"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:layout_centerVertical="true"
+        />
+    
+    <ImageView 
+        android:contentDescription="@string/exit"
+        android:id="@+id/delete_item"
+        android:src="@drawable/exit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignLeft="@+id/select_arrow"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        />
+    
+</RelativeLayout>

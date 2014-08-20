@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey"
+    android:padding="3dp"
+    android:orientation="horizontal">
+	<RelativeLayout
+	    android:id="@+id/popup_holder"
+	    android:layout_gravity="bottom"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/black">
+	    
+	    <TextView 
+	        android:id="@+id/popup_prompt_text"
+	        android:text="@string/create_new_graph"
+	        android:textSize="22sp"
+	        android:textColor="@color/grey"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>
+	    
+	    <TextView 
+	    	android:id="@+id/enter_name_prompt_text"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"    
+	        android:layout_below="@+id/popup_prompt_text"
+	       	android:layout_marginTop="16dp"
+	       	android:padding="5dp"
+	        android:text="@string/graph_name"
+	        android:textSize="16sp"
+	        android:textColor="@color/white"
+	        />
+	   
+	    <EditText 
+	        android:id="@+id/graph_title"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_below="@+id/popup_prompt_text"
+	    	android:layout_marginTop="18dp"
+	    	android:layout_toRightOf="@+id/enter_name_prompt_text"
+	    	android:layout_marginLeft="25dp"
+	    	android:padding="5dp"
+	    	android:background="@drawable/edit_text_background"	
+	    	android:hint="@string/graph_title_hint"
+	    	android:singleLine="true"
+	    	android:textSize="16sp"
+	    	android:textColor="@color/black"
+	    	/>
+	     
+	    <TextView
+	        android:id="@+id/subtitle_prompt_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/enter_name_prompt_text"
+	        android:layout_marginTop="10dp"
+	        android:padding="5dp"
+	        android:text="@string/graph_subtitle"
+	        android:textSize="16sp"
+	        android:textColor="@color/white" />
+	    
+	    <EditText
+	        android:id="@+id/graph_subtitle"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_below="@+id/enter_name_prompt_text"
+	        android:layout_marginTop="10dp"
+	        android:layout_toRightOf="@+id/subtitle_prompt_text"
+	        android:layout_marginLeft="10dp"
+	        android:padding="5dp"
+	        android:background="@drawable/edit_text_background"
+	        android:hint="@string/graph_subtitle_hint"
+	        android:singleLine="true"
+	        android:textSize="16sp"
+	        android:textColor="@color/black" />
+	    
+	    <TextView
+	        android:id="@+id/enter_data_prompt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/subtitle_prompt_text"
+	        android:layout_marginTop="10dp"
+	        android:padding="5dp"
+	        android:text="@string/enter_data_prompt"
+	        android:textSize="16sp"
+	        android:textColor="@color/white" />
+	    
+	    <EditText
+	        android:id="@+id/graph_data"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_below="@+id/enter_data_prompt"
+	        android:layout_marginTop="5dp"
+	        android:layout_centerHorizontal="true"
+	        android:padding="5dp"
+	        android:background="@drawable/edit_text_background"
+	        android:hint="@string/enter_data_hint"
+	        android:singleLine="true"
+	        android:textSize="16sp"
+	        android:textColor="@color/black" />
+	    
+	    <TextView
+	        android:id="@+id/enter_query_prompt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/graph_data"
+	        android:layout_marginTop="10dp"
+	        android:padding="5dp"
+	        android:text="@string/enter_query_prompt"
+	        android:textSize="16sp"
+	        android:textColor="@color/white" />
+	    
+	    <EditText
+	        android:id="@+id/query_text"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_below="@+id/enter_query_prompt"
+	        android:layout_marginTop="5dp"
+	        android:layout_centerHorizontal="true"
+	        android:padding="5dp"
+	        android:background="@drawable/edit_text_background"
+	        android:hint="@string/enter_query_hint"
+	        android:singleLine="true"
+	        android:textSize="16sp"
+	        android:textColor="@color/black" />
+	    
+	    <TextView
+	        android:id="@+id/enter_x_prompt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/query_text"
+	        android:layout_marginTop="10dp"
+	        android:padding="5dp"
+	        android:text="@string/enter_x_prompt"
+	        android:textSize="16sp"
+	        android:textColor="@color/white" />
+	    
+	    <EditText
+	        android:id="@+id/enter_x"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_below="@+id/query_text"
+	        android:layout_marginTop="10dp"
+	        android:layout_toRightOf="@+id/enter_x_prompt"
+	        android:layout_marginLeft="10dp"
+	        android:padding="5dp"
+	        android:background="@drawable/edit_text_background"
+	        android:hint="@string/enter_x_hint"
+	        android:singleLine="true"
+	        android:textSize="16sp"
+	        android:textColor="@color/black" />
+	    
+	    <TextView
+	        android:id="@+id/enter_y_prompt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/enter_x_prompt"
+	        android:layout_marginTop="10dp"
+	        android:padding="5dp"
+	        android:text="@string/enter_y_prompt"
+	        android:textSize="16sp"
+	        android:textColor="@color/white" />
+	    
+	    <EditText
+	        android:id="@+id/enter_y"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_below="@+id/enter_x_prompt"
+	        android:layout_marginTop="10dp"
+	        android:layout_toRightOf="@+id/enter_y_prompt"
+	        android:layout_marginLeft="10dp"
+	        android:padding="5dp"
+	        android:background="@drawable/edit_text_background"
+	        android:hint="@string/enter_y_hint"
+	        android:singleLine="true"
+	        android:textSize="16sp"
+	        android:textColor="@color/black" />
+	    
+	     <TextView 
+	        android:id="@+id/graph_type_prompt"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_below="@+id/enter_y_prompt"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginLeft="5dp"
+	        android:paddingTop="5dp"
+	        android:text="@string/graph_type_prompt"
+	        android:textColor="@color/white"
+	        android:textSize="16sp"
+	        />
+	    
+	    <RadioGroup 
+	        android:id="@+id/graph_type_group"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/graph_type_prompt"
+	        android:layout_marginTop="10dp"
+	        android:orientation="horizontal">
+	        
+	        <RadioButton 
+	            android:id="@+id/bar_graph"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="10dp"
+	           	android:text="@string/bar_graph"
+	           	android:textColor="@color/white"
+	           	android:textSize="16sp"
+	           	android:background="@drawable/graph_type_radiobutton"
+	           	android:padding="5dp"
+	           	android:button="@null"/>
+	        
+	        <RadioButton
+	            android:id="@+id/line_graph"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:text="@string/line_graph"
+	            android:textColor="@color/white"
+	            android:textSize="16sp"
+	            android:background="@drawable/graph_type_radiobutton"
+	            android:padding="5dp"
+	            android:button="@null" />
+	        
+	    </RadioGroup>
+	    
+	    <LinearLayout
+	        android:id="@+id/check_holder"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/graph_type_group"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp" >
+	        
+	        <CheckBox
+		        android:id="@+id/check_user"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:text="@string/use_saved"
+		        android:textSize="14sp"
+		        android:textColor="@color/white"
+		        android:checked="true"/>   
+	    </LinearLayout>
+	    
+	     
+		<Button
+		    android:id="@+id/exit_popup"
+		    android:layout_width="120dp"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_marginLeft="15dp"
+		    android:layout_below="@+id/check_holder"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginBottom="15dp"
+		    android:text="@string/return_lists"
+		    android:textColor="@color/white"
+		    android:textSize="14sp" />    
+	    
+		<Button
+		    android:id="@+id/create_graph"
+		    android:layout_width="120dp"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginRight="15dp"
+		    android:layout_below="@+id/check_holder"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginBottom="15dp"
+		    android:text="@string/create_graph"
+		    android:textColor="@color/white"
+		    android:textSize="14sp" />
+		 
+	</RelativeLayout> 
+
+</LinearLayout>

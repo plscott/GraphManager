@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- This is the influx db url -->
+	<string name="influx_url">http://density-misterfusion-1.c.influxdb.com:8086</string>
+    
+    <!-- These are resource strings used in xml files -->
+    <string name="app_name">Graph Manager</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="create_new_list">Create a new graph list:</string>
+	<string name="graph_list_name">Name:</string>
+	<string name="graph_list_title_hint">Title of Graph List</string>
+	<string name="graph_list_subtitle">Subtitle:</string>
+	<string name="graph_list_subtitle_hint">Subtitle of Graph List</string>
+	<string name="return_lists">Return to Lists</string>
+	<string name="create_graph_list">Create Graph List</string>
+	<string name="lists_view_empty">You don\'t have any lists. \n Click the add button to create a new graph list.</string>
+	<string name="remove_list_button">-</string>
+	<string name="add_list_button">+</string>
+	<string name="view_list_button">View List</string>
+	<string name="choose_from_lists_prompt">Choose from your lists:</string>
+	<string name="search">SEARCH HERE</string>
+	<string name="graphs_view_empty">This list doesn\'t have any graphs! \n Click the add button to create a new graph.</string>
+	<string name="remove_graph_button">Remove Graph</string>
+	<string name="add_graph_button">+</string>
+	<string name="view_graph_button">View Graph</string>
+	<string name="create_new_graph">Create a New Graph:</string>
+	<string name="graph_name">Name:</string>
+	<string name="graph_title_hint">Title of Graph</string>
+	<string name="graph_subtitle">Subtitle:</string>
+	<string name="graph_subtitle_hint">Subtitle of Graph</string>
+	<string name="create_graph">Create Graph</string>
+	<string name="sample_graph">Sample Graph:</string>
+	<string name="return_graphs">Return to Graphs</string>
+	<string name="bar_graph">Bar Graph</string>
+	<string name="line_graph">Line Graph</string>
+	<string name="graph_type_prompt">Graph Type:</string>
+	<string name="enter_data_prompt">Enter Graph Database:</string>
+	<string name="enter_data_hint">InfluxDB Database</string>
+	<string name="enter_query_prompt">Enter Databse Query:</string>
+	<string name="enter_query_hint">InfluxDB Query</string>
+	<string name="list_total">List Total:</string>
+	<string name="graph_type">Graph Type</string>
+	<string name="enter_x_prompt">Enter X-Axis Label:</string>
+	<string name="enter_x_hint">Graph Label</string>
+	<string name="enter_y_prompt">Enter Y-Axis Label:</string>
+	<string name="enter_y_hint">Graph Label</string>
+	<string name="use_saved">Use saved username and password</string>
+	<string name="user_prompt">Username:</string>
+	<string name="user_hint">Influx Username</string>
+	<string name="password_prompt">Password:</string>
+	<string name="password_hint">Influx Password</string>
+	<string name="save">Save User</string>
+	<string name="lists">Graph Lists</string>
+	<string name="graphs">Graphs</string>
+	<string name="arrow">select arrow</string>
+	<string name="exit">exit icon</string>
+	<string name="back_to_lists">Lists</string>
+	<string name="back">back icon</string>
+	<string name="auto_refresh">&#160;&#160;Auto\nRefresh</string>
+	<string name="loading">Loading Data</string>
+</resources>
